@@ -1,24 +1,100 @@
 
-/*------VARIABLES------*/
+/*-------------------------------VARIABLES----------------------------------*/
 :root {
 
-    --bg-color-primo: blue;
-    --bg-color-secondo: red;
-
+    --bg-header: #2c3e50;
+    --bg-green: #1abc9c;
+    --bg-footer-top: #3a546d;
+    --bg-footer-bottom: #2c3e50;
+    --text-black: #333333;
     
 }
 
-/*------COMMON PARTS------*/
+/*-------------------------------COMMON PARTS------------------------------*/
+img {
 
-/*------SPECIFIED PARTS BY ID------*/
-.primo {
+    max-width: 100%;
+    display: block;
 
-    background-color: var(--bg-color-primo);
+}
+.box {
+
+    /*DEBUG*/
+    min-height: 80px;
+    border: 3px solid gray;
 
 }
 
-.secondo {
+label, input {
 
-    background-color: var(--bg-color-secondo);
+    display: block;
+
+}
+
+h1, h2, p, span {
+
+    color: white;
+
+}
+
+/*-------------------------------SPECIFIED PARTS BY ID---------------------*/
+/*HEADER*/
+header {
+
+    background-color: var(--bg-header);
+
+}
+
+/*JUMBOBOX*/
+#jumbobox {
+
+    background-color: var(--bg-green);
+
+}
+
+/*PORTFOLIO*/
+#portfolio h1, 
+#portfolio h2, 
+#portfolio p, 
+#portfolio span {
+
+    color: var(--text-black);
+
+}
+
+/*ABOUT*/
+#about {
+
+    background-color: var(--bg-green);
+
+}
+
+/*CONTACT-ME*/
+
+#contact-me h1, 
+#contact-me h2, 
+#contact-me p, 
+#contact-me span {
+
+    color: var(--text-black);
+
+}
+
+/*FOOTER*/
+footer {
+
+
+
+}
+
+footer .footer-top {
+
+    background-color: var(--bg-footer-top);
+
+}
+
+footer .footer-bottom {
+
+    background-color: var(--bg-footer-bottom);
 
 }
