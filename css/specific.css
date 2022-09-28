@@ -7,6 +7,9 @@
     --bg-footer-top: #3a546d;
     --bg-footer-bottom: #2c3e50;
     --text-black: #333333;
+
+    --header-height: 80px;
+    --ms-line-height: 80px;
     
 }
 
@@ -19,9 +22,10 @@ img {
 }
 .box {
 
+    /* height: 100%; */
     /*DEBUG*/
-    min-height: 80px;
-    border: 3px solid gray;
+    /* line-height: var(--ms-line-height); */
+    /* border: 3px solid gray; */
 
 }
 
@@ -37,11 +41,23 @@ h1, h2, p, span {
 
 }
 
+section {
+
+    margin-bottom: var(--header-height);
+
+}
+
 /*-------------------------------SPECIFIED PARTS BY ID---------------------*/
 /*HEADER*/
-header {
+header ul {
 
-    background-color: var(--bg-header);
+    list-style-type: none;
+
+}
+
+header .ms_line-height {
+
+    line-height: var(--ms-line-height);
 
 }
 
