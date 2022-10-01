@@ -1,0 +1,46 @@
+/* CUSTOM PROPERTIES */ 
+:root {
+
+    /* TEXT COLORS */
+    --text-white: white;
+    --text-black: #2c3e50; 
+
+    /* BG COLORS */
+    --bg-header: white;
+    --bg-green: #1abc9c;
+    --bg-footer-top: #3a546d;
+    --bg-footer-bottom: #2c3e50;
+    
+}
+
+/* RESET */
+img {
+
+    max-width: 100%;
+
+}
+
+/* COMMON */
+.ms-text-white {
+
+    color: var(--text-white);
+
+}
+
+.ms-text-black {
+
+    color: var(--text-black);
+
+}
+
+/* HEADER */
+
+/* JUMBOBOX */
+
+/* PORTFOLIO */
+
+/* ABOUT */
+
+/* CONTACT-ME */
+
+/* FOOTER */
