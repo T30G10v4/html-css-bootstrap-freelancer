@@ -20,6 +20,13 @@ img {
 
 }
 
+a {
+
+    text-decoration: none;
+    color: inherit;
+
+}
+
 /* COMMON */
 .ms-text-white {
 
@@ -34,6 +41,25 @@ img {
 }
 
 .ms-bg-green {
+
+    background-color: var(--ms-bg-green);
+
+}
+
+.ms-btn {
+
+    border-radius: 5px;
+    padding: .5rem 1rem;
+
+}
+
+.ms-btn-brdr-white {
+
+    border: 1px solid var(--ms-text-white);
+
+}
+
+.ms-btn-bg-green {
 
     background-color: var(--ms-bg-green);
 
@@ -58,5 +84,40 @@ img {
 /* ABOUT */
 
 /* CONTACT-ME */
+#ms-contact-me .btn {
+
+    background-color: var(--ms-bg-green);
+
+}
 
 /* FOOTER */
+
+#ms-footer .ms-footer-top {
+
+    background-color: var(--ms-bg-footer-top);
+
+}
+
+#ms-footer .ms-footer-bottom {
+
+    background-color: var(--ms-bg-footer-bottom);
+
+}
+
+#ms-footer .ms-footer-top .ms-social {
+
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid white;
+    line-height: 60px;
+    margin: 0  .2rem;
+
+}
+
+#ms-footer .ms-green-link {
+
+    color: var(--ms-bg-green);
+
+}

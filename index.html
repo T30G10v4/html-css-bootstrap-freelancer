@@ -49,7 +49,7 @@
       <div class="container">
         <img src="img/avatar.svg" alt="Person">
         <h1>START BOOTSTRAP</h1>
-        <i class="fa-solid fa-star fs-1"></i>
+        <p class="text-center"><i class="fa-solid fa-star fs-1 mb-2"></i></p>
         
         <h2>GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</h2>
       </div>
@@ -60,7 +60,7 @@
     <section id="ms-portfolio" class="text-center py-5 ms-text-black">
       <div class="container">
         <h2>PORTFOLIO</h2>
-        <i class="fa-solid fa-star fs-1 mb-4"></i>
+        <p class="text-center"><i class="fa-solid fa-star fs-1 mb-2"></i></p>
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5">
           <div class="col">
             <img src="img/cabin.png" alt="Cake">
@@ -87,14 +87,51 @@
     <!-- /PORTFOLIO -->
 
     <!-- ABOUT -->
-    <section id="ms-about" class="" >
+    <section id="ms-about" class="py-5 ms-bg-green ms-text-white">
+
+      <div class="container">
+
+        <h2 class="text-center">ABOUT</h2>
+        <p class="text-center"><i class="fa-solid fa-star fs-1 mb-2"></i></p>
+        <div class="row row-cols-1 row-cols-md-2">
+          <div class="col">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias nostrum fuga aliquam deleniti vitae, repellat eveniet esse deserunt alias! Esse a laboriosam nobis, ipsa illo beatae expedita quasi repudiandae. Mollitia!</p>
+          </div>
+          <div class="col">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus iste nostrum labore, tempora a architecto. Pariatur fugiat dolores perferendis esse, sequi quia adipisci reprehenderit maxime quibusdam porro nostrum natus mollitia.</p>
+          </div>
+        </div>
+        <p class="text-center"><a href="#" class="ms-btn ms-btn-brdr-white ms-btn-bg-green"><i class="fa-solid fa-download"></i> Download</a></p>
+      </div>
 
     </section>
     <!-- /ABOUT -->
 
     <!-- CONTACT-ME -->
-    <section id="ms-contact-me" class="" >
-
+    <section id="ms-contact-me" class="py-5 ms-text-black">
+      <div class="container">
+        <h2 class="text-center">CONTACT ME</h2>
+        <p class="text-center"><i class="fa-solid fa-star fs-1 mb-2"></i></p>
+        <form>
+          <div class="mb-3">
+            <label for="inputName" class="form-label">Name</label>
+            <input type="text" class="form-control border border-start-0 border-top-0 border-end-0" id="inputName">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control border border-start-0 border-top-0 border-end-0" id="exampleInputEmail1" aria-describedby="emailHelp">
+          </div>
+          <div class="mb-3">
+            <label for="inputPhone" class="form-label">Phone Number</label>
+            <input type="text" class="form-control border border-start-0 border-top-0 border-end-0" id="inputPhone">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+            <textarea class="form-control border border-start-0 border-top-0 border-end-0" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary border border-0">Send</button>
+        </form>
+      </div>
     </section>
     <!-- /CONTACT-ME -->
   
@@ -102,8 +139,33 @@
   <!-- /MAIN -->
 
   <!-- FOOTER -->
-  <footer id="ms-footer" class="">
+  <footer id="ms-footer" class="ms-text-white text-center">
+    <div class="ms-footer-top py-5">
+      <div class="container">
+        <div class="row row-cols-1 row-cols-md-3">
+          <div class="col">
+            <h3>LOCATION</h3>
+            <p>2215 John Daniel Drive Clark, MO 54243</p>
+          </div>
+          <div class="col">
+            <h3>AROUND THE WEB</h3>
+            <a class="ms-social" href="#"><i class="fs-3 fa-brands fa-facebook-f"></i></a>
+            <a class="ms-social" href="#"><i class="fs-3 fa-brands fa-google-plus-g"></i></a>
+            <a class="ms-social" href="#"><i class="fs-3 fa-brands fa-twitter"></i></a>
+            <a class="ms-social" href="#"><i class="fs-3 fa-brands fa-linkedin"></i></a>
+          </div>
+          <div class="col">
 
+            <h3>ABOUT FREELANCER</h3>
+            <p>Freelance is a free to use, open source Bootstrap theme created by <a class="ms-green-link" href="#">Start Bootstrap</a></p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="ms-footer-bottom py-5">
+      <p>Copyright &COPY; Your Website 2022</p>
+    </div>
   </footer>
   <!-- /FOOTER -->
 
